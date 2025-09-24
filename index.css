@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(23, 18, 18);
+    color: whitesmoke;
+}
+h1,h2,h3{
+    color: rgb(190, 41, 41);
+    
+}
+h1,h2{
+    text-align: center;
+}
+ul {
+    display: flex; 
+    list-style: none; 
+    gap: 40px;
+    justify-content: center;
+    
+}
+ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+   
+}
+ul li a:hover{
+    color: rgb(190, 41, 41) ;
+}
+#home{
+    background-image: url("./gym.jpg") ;
+     background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 110px;
+
+  
+}
+#home p {
+    display: inline-flex;
+    margin-top: 150px;
+    background-color: rgba(9, 9, 9, 0.53);
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 180px;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+#programs {
+       display: flex;
+      justify-content: center;
+      gap: 20px;
+}
+.card {
+      background-color: #1a1a1a85;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      
+ }
+#Contact{
+    text-align: center;
+    margin-top: 120px;
+    
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.726);
+    text-align: center;
+    padding: 3px;
+    margin-top: 100px;
+    
+}
